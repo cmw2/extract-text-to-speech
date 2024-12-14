@@ -1,7 +1,7 @@
-# Repo to extract bill summary info and generate audio file.
+# Repo to extract information from a document and then generate an audio file with that extracted content.
 
 ## Features
-This repo has a python jupyter notebook that will read files i the input folder and process them with Azure Document Intelligence.  It will then use Azure OpenAI gpt-4o to extract the desired content and turn it into a markdown file.  Finally it uses Azure Speech Services to turn that into an audio file which is stored in the output folder.
+This repo has a python jupyter notebook that will read files in the input folder and process them with Azure Document Intelligence.  It will then use Azure OpenAI gpt-4o to extract the desired content and turn it into a markdown file.  Finally it uses Azure Speech Services to turn that into an audio file which is stored in the output folder.
 
 ## Get Started
 To get started you need to:
